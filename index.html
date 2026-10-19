@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNICAL Student Result Portal</title>
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>UNIVERSITY OF CALABAR</h1>
+        <p>STUDENT RESULT PORTAL</p>
+    </header>
+
+    <main class="login-container">
+
+        <div class="portal-icon">U</div>
+
+        <h2>Student Login</h2>
+        <p class="description">
+            Enter your details to access your academic results.
+        </p>
+
+        <form action="#" method="post">
+
+            <div class="form-group">
+                <label for="matric">Matriculation Number</label>
+                <input
+                    type="text"
+                    id="matric"
+                    name="matric_number"
+                    placeholder="Enter your matric number"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    required
+                >
+            </div>
+
+            <div class="form-options">
+                <label class="remember">
+                    <input type="checkbox" name="remember">
+                    Remember me
+                </label>
+
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit">Login to Portal</button>
+
+        </form>
+
+        <p class="help-text">
+            Need help? Contact the University ICT Support Unit.
+        </p>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 University of Calabar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
